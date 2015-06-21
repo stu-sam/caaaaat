@@ -1,0 +1,303 @@
+#container {
+	position: relative;
+	top: 200px;
+	left: 45%;
+}
+
+#face {
+	width: 130px;
+	height: 100px;
+	background: black;
+	position: relative;
+}
+
+#face:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-bottom: 20px solid black;
+	border-left: 20px solid yellow;
+	border-right: 20px solid yellow;
+	width: 90px;
+	height: 0;
+}
+
+#face:after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	border-top: 20px solid black;
+	border-left: 20px solid yellow;
+	border-right: 20px solid yellow;
+	width: 90px;
+	height: 0;
+}
+
+.ear-outer {
+	width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-bottom: 20px solid black;
+	position: absolute;
+}
+
+.right-ear {
+	top:-20px;
+	left: 21px;
+}
+
+.left-ear {
+	top:-20px;
+	left: 80px;
+}
+
+.ear-inside {
+	width: 0;
+	height: 0;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-bottom: 10px solid pink;
+	position: absolute;
+}
+
+.right-ear-inside {
+	top:8px;
+	left:-8px;
+}
+
+.left-ear-inside {
+	top:8px;
+	left:-8px;
+}
+
+.cat-eye {
+  position: absolute;
+  overflow: hidden;
+  z-index: 2;
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  background: #fff;
+  background-position: center;
+}
+
+.cat-right-eye {
+  top: 20px;
+  left: 80px;
+}
+
+.cat-left-eye {
+  top: 20px;
+  left: 18px;
+}
+
+#cat-eye-left-pupil {
+  position: absolute;
+  z-index: 4;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background: black;
+  top: 5px;
+  left: 5px;
+  background-position: center;
+}
+
+#cat-eye-right-pupil {
+  position: absolute;
+  z-index: 4;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background: black;
+  top: 5px;
+  left: 5px;
+  background-position: center;
+}
+
+.nose {
+	width: 0;
+	height: 0;
+	border-left: 9px solid transparent;
+	border-right: 9px solid transparent;
+	border-top: 10px solid brown;
+	position: absolute;
+	top: 58px;
+	left: 56px;
+	
+}
+
+.cat-stomache {
+	position: absolute;
+    border-radius: 30px;
+    background-color: black; 
+	width: 150px;
+	height: 90px; 
+	top: 90px;
+	left: -60px;
+}
+
+.whisker-style {
+	position: absolute;
+	width: 30px;
+	height: 2px;
+	background: #B06408;
+}
+
+.whisker-1 {
+  top: 58px;
+  left: 24px;
+  transform: rotate(8deg);
+}
+
+.whisker-2 {
+  top: 67px;
+  left: 24px;
+  transform: rotate(-8deg);
+}
+
+.whisker-3 {
+  top: 67px;
+  left: 76px;
+  transform: rotate(-172deg);
+}
+
+.whisker-4 {
+  top: 58px;
+  left: 77px;
+  transform: rotate(172deg);
+}
+
+.cat-leg {
+	position: absolute;
+	height: 10px;
+	width: 27px;
+	transform: rotate(90deg);
+	background: black;
+}
+
+.leg-1 {
+	top: 185px;
+	left: 50px;
+}
+
+.leg-2 {
+	top: 185px;
+	left: 20px;
+}
+
+.leg-3 {
+	top: 185px;
+	left: -30px;
+}
+
+.leg-4 {
+	top: 185px;
+	left: -45px;
+}
+
+.cat-shadow {
+	position: absolute;
+	width: 170px;
+	height: 43px;
+	background: rgb(42, 38, 38);
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 75px / 40px;
+	top: 185px;
+	left: -63px;
+	opacity: 0.6;
+	z-index: -1;
+}
+
+.cat-tail{
+	position: absolute;
+	height: 12px;
+	background: black;
+}
+
+.tail-part-1 {
+	width: 37px;
+	transform: rotate(20deg);
+	top: 100px;
+	left: -90px;
+}
+
+.tail-part-2 {
+	width: 30px;
+	transform: rotate(90deg);
+	top: 83px;
+	left: -100px;
+}
+
+.tail-part-3 {
+	width: 30px;
+	transform: rotate(120deg);
+	top: 58px;
+	left: -93px;
+}
+
+.tail-part-4 {
+	width: 27px;
+	transform: rotate(200deg);
+	top: 52px;
+	left: -77px;
+}
+
+
+.bowl-top {
+	position: absolute;
+	width: 90px;
+	height: 30px;
+	background: rgb(159, 7, 7);
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	top: 200px;
+	left: 180px;
+	border: 3px solid black;
+	z-index: 2;
+}
+
+.milk {
+	position: absolute;
+	width: 80px;
+	height: 27px;
+	background: white;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 60px;
+	top: 206px;
+	left: 188px;
+	z-index: 3;
+}
+
+.bottom-part {
+	position: absolute;
+	border-radius: 30px;
+	background-color: rgb(39, 11, 87);
+	border: 3px solid black;
+	width: 80px;
+	height: 40px; 
+	top: 204px;
+	left: 185px;
+	z-index: 1;
+}
+
+.shadow-bowl {
+	position: absolute;
+	width: 95px;
+	height: 43px;
+	background: rgb(42, 38, 38);
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 75px / 40px;
+	top: 220px;
+	left: 180px;
+	opacity: 0.6;
+	z-index: -1;
+
+}
